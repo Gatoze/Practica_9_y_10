@@ -21,6 +21,9 @@
     <argument
         android:name= "title"
         app:argType="string"/>
+        <action
+            android:id="@+id/action_detallePaisFragment_to_paisFragment"
+            app:destination="@id/paisFragment" />
     </fragment>
     <fragment
         android:id="@+id/AcercaDeFragment"
